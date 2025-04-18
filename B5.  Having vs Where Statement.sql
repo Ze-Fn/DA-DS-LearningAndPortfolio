@@ -1,5 +1,6 @@
 -- Having vs Where Statement
 
+USE parks_and_recreation;
 SELECT occupation, AVG(salary)
 FROM employee_salary
 WHERE occupation LIKE '%director%'
