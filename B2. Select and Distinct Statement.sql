@@ -1,3 +1,6 @@
+-- Select and Distinct Statement
+
+USE parks_and_recreation;
 SELECT * 
 FROM parks_and_recreation.employee_demographics;
 
@@ -11,3 +14,5 @@ FROM parks_and_recreation.employee_demographics;
 
 SELECT DISTINCT gender
 FROM parks_and_recreation.employee_demographics;
+
+/* SELECT statement returns the column desired from a table. DISTINCT, on the other hand, returns 
