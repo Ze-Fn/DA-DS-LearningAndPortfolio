@@ -31,3 +31,6 @@ WHERE salary >= 70000
 
 -- This last line of code will order the list by first_name in a descending manner
 ORDER BY first_name;
+
+
+/* Reflection: UNION statement has the same function as JOIN, but there is a difference. Different with that of JOIN where column(s) in joined to the sides, UNION joins column(s) into the bottom of the table. */
