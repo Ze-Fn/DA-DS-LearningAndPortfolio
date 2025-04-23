@@ -54,3 +54,8 @@ UNION
 SELECT *
 FROM FullName_esal
 ;
+
+/* Reflection:
+I've been wondering how can I merge two CTEs and then combine the ecombined the two CTEs with other CTEs?
+(FullName_edemo UNION FullName_esal) AS Compiled_FN then (Complied_FN JOIN gender, salary ON first_name AND last_name
+I haven't figure it out how to execute that */
