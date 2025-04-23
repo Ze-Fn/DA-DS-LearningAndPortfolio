@@ -59,3 +59,17 @@ FROM FullName_esal
 I've been wondering how can I merge two CTEs and then combine the ecombined the two CTEs with other CTEs?
 (FullName_edemo UNION FullName_esal) AS Compiled_FN then (Complied_FN JOIN gender, salary ON first_name AND last_name
 I haven't figure it out how to execute that */
+
+/* Below is first_name and last_name being UNION'ed (employee_demographics AND employee_salary) and then RIGHT JOIN'ed FullNames AND employee_salary.
+It's not combining two CTEs but it get the job done (see reflection above for context) */
+WITH FullNames AS
+	(SELECT edemo.first_name, edemo.last_name
+    FROM employee_demographics AS edemo
+    UNION DISTINCT
+    SELECT esal.first_name, esal.last_name
+    FROM employee_salary AS esal)
+SELECT FullNames.first_name, FullNames.last_name, occupation, salary
+FROM FullNames
+RIGHT JOIN employee_salary
+	ON employee_salary.first_name = FullNames.first_name
+WHERE salary >= 20000;
