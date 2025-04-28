@@ -107,4 +107,5 @@ ggplot() +
     mapping = aes(x = flipper_length_mm, y = body_mass_g)
   )
 
-Prediction: The first and the second graph will look the same because the global level mapping says mapping = aes(x = flipper_length_mm, y = body_mass_g) and the local level mapping (geom_point and geom_smooth) also maps the same variables. So, my guess is that the two graphs wont have any difference.
+  Prediction: The first and the second graph will look the same because the global level mapping says mapping = aes(x = flipper_length_mm, y = body_mass_g) and the local level mapping (geom_point and geom_smooth) also maps the same variables. So, my guess is that the two graphs won't have any difference.
+  Output: They are both the same.
