@@ -1,7 +1,9 @@
 1. How many rows are in penguins? How many columns?
   A: I can use glimpse(penguins) and look for the "rows" and "column" value.
+
 2. What does the bill_depth_mm variable in the penguins data frame describe? Read the help for ?penguins to find out.
   A: It is a number for bill depth expressed in milimeters
+
 3. Make a scatterplot of bill_depth_mm vs. bill_length_mm. That is, make a scatterplot with bill_depth_mm on the y-axis and bill_length_mm on the x-axis. Describe the relationship between these two variables.
   A: 
   library(palmerpenguins)
@@ -23,15 +25,59 @@
     scale_color_colorblind()
 
   "As bill depth increases, so does the bill length. Gentoo has an average of approximately 15mm bill depth and 47mm bill length, Chinstrap penguins' bill depth and bill length, on the other hand, are averaging at around 18.25mm and 48mm respectively, and Adelie penguins has an average around 18.30mm of bill depth and 39mm of bill length.
+
 4. What happens if you make a scatterplot of species vs. bill_depth_mm? What might be a better choice of geom?
-  A: 
+  A: It seems like geom_boxplot is the best plotting choice in this case. Boxplots allow us to see the distribution, median, and potential outliers in each species of penguins.
+
 5. Why does the following give an error and how would you fix it?
 ggplot(data = penguins) + 
   geom_point()
+  A: The ggplot function requires at least x and y parameters in the mapping for it to run properly. I would suggest adding the x and y variable into the function like so: mapping = aes(x = bill_length_mm, y = body_mass_g)
 
 6. What does the na.rm argument do in geom_point()? What is the default value of the argument? Create a scatterplot where you successfully use this argument set to TRUE.
+  A: It removes the warning message of NA data. The default value is FALSE so that everytime geom_point is called, it will show a warning message--to inform whethter there is excluded data in the plot. 
+  library(palmerpenguins)
+  ggplot(
+    data = penguins,
+    mapping = aes(x = bill_length_mm, y = bill_depth_mm)
+  ) +
+  geom_point(
+    data = penguins,
+    mapping = aes(color = Species, shape = species),
+    na.rm = TRUE)
+
 7. Add the following caption to the plot you made in the previous exercise: “Data come from the palmerpenguins package.” Hint: Take a look at the documentation for labs().
+  library(palmerpenguins)
+  ggplot(
+    data = penguins,
+    mapping = aes(x = flipper_length_mm, y = body_mass_g
+  ) +
+  geom_point(
+    data = penguins,
+    mapping = aes(color = Species, shape = Species),
+  ) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Flipper Length and Body Mass",
+    subtitle = "Dimensions for Adelie, Chinstrap, Gentoo penguins",
+    x = "Flipper Length", y = "Body Mass",
+    color = "Species", shape = "Species",
+    caption = "Data come from the palmerpenguins package."
+
 8. Recreate the following visualization. What aesthetic should bill_depth_mm be mapped to? And should it be mapped at the global level or at the geom level?
+  A:
+    library(palmerpenguins)
+    ggplot(
+      data = penguins,
+      mapping = aes(x = flipper_length_mm, y = body_mass_g)
+    ) +
+    geom_point(
+      mapping = aes(color = bill_depth_mm),
+    ) +
+    geom_smooth(method = "gam")
+
+    The bill_depth_mm should be mapped in the local aesthetic, i.e. the geom_point. This allows for the coloring of bill_depth_mm to only apply for the scatterplot, not the other geom objects like geom_smooth, geom_jitter, etc.
+
 9 .Run this code in your head and predict what the output will look like. Then, run the code in R and check your predictions.
 ggplot(
   data = penguins,
@@ -39,6 +85,9 @@ ggplot(
 ) +
   geom_point() +
   geom_smooth(se = FALSE)
+
+  Prediction: The script will show a scatter plot of Flipper Length and Body Mass, with distinct coloring for each island and there is no grey area around the geom_smooth line, it will only show straight, solid line.
+  Output: The script shows a scatterplot with dimensions of islands. There are three smooth lines visible, one for each island, distinct color.
 
 10.Will these two graphs look different? Why/why not?
 ggplot(
@@ -58,3 +107,4 @@ ggplot() +
     mapping = aes(x = flipper_length_mm, y = body_mass_g)
   )
 
+Prediction: The first and the second graph will look the same because the global level mapping says mapping = aes(x = flipper_length_mm, y = body_mass_g) and the local level mapping (geom_point and geom_smooth) also maps the same variables. So, my guess is that the two graphs wont have any difference.
