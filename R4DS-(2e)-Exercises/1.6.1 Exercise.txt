@@ -1,0 +1,12 @@
+1. Run the following lines of code. Which of the two plots is saved as mpg-plot.png? Why?
+
+ggplot(mpg, aes(x = class)) +
+  geom_bar()
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+ggsave("mpg-plot.png")
+  The ggsave() function at the end of the lines of code above will only save the most recent plot created. Thus, it will save the scatterplot where x = cty and y = hwy--not the one with bar chart.
+
+2. What do you need to change in the code above to save the plot as a PDF instead of a PNG? How could you find out what types of image files would work in ggsave()?
+  Well, we can simply change the extension of the file to .pdf instead of .png.
+  For further information, we can always check the documentation of the dunction by running ?____
