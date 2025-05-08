@@ -1,6 +1,9 @@
 # Problem 
 Why do students perform lower on summative assessment of Informatics? 
 
+# Hypotheses
+* There is an inconsistency between what are being assessed and what the students learned during the learning period.
+
 # Data Gathering
 * Students answer sheet
 * Answer Key
