@@ -4,6 +4,7 @@ Why do students perform lower on summative assessment of Informatics?
 # Hypotheses
 1. The summative assessment does not measure what the students learned during their learning period. 
 2. The students did not study for their test.
+3. The teacher did not teach the materials included in the assessment.
 
 # Data Gathering Procedure
 1. Request access file to the teacher who is responsible for storing students' exam data (i.e. Curriculum Division).
