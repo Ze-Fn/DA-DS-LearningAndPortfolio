@@ -16,6 +16,9 @@ Why do students perform lower on summative assessment of Informatics?
 * Each Questions
 * Total score
 
+## Observations
+1036 students
+
 ## Analytics Type to be Used
 * Descriptive
 * Prescriptive
