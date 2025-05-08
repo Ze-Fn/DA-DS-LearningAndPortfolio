@@ -28,6 +28,9 @@ Why do students perform lower on summative assessment of Informatics?
 1. Access the file in a data processing software (i.e. Excel).
 2. Since the files are already populated with students' responses and total score of each student, data cleaning process is reduced but not completely skipped or neglected.
 3. Group the students by class and make a separate table out of it. 
-4. Sort the data by descending order, by the total score. 
+4. Sort the data descendingly by the total score. 
 5. Convert all responses from long strings into 1 character string either A, B, C, or D identical to the original response. 
-6. 
+6. Perform a difficulty index calculation for each question item.
+7. Perform a discrimination index calculation for each question item.
+8. Perform a distractor analysis for each question item.
+9. Provide a recommendation for each question item whether they should be rejected, revised, or accepted.
