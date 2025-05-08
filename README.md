@@ -1,3 +1,4 @@
+> Outdated (needs update, pending)
 <h1>DA-Portfolio</h1>
 <p>This repository contains all of my journey of data analysis.</p>
 
