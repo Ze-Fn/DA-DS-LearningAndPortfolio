@@ -1,6 +1,6 @@
 # Authors
 - **Zelvy Fauzan** – [GitHub](https://github.com/Ze-Fn/)  
-- **Siska Dewi Aryani** – [GitHub](https://github.com/)  
+- **Siska Dewi Aryani** – [GitHub](https://github.com/SiskaDewiAryani)
  
 ## 1 Introduction
 The governor of West Java, Indonesia, Dedi Mulyadi, had decreed "_9 Langkah Pembangunan Pendidikan Jawa Barat Menuju Terwujudnya Gapura Panca Waluya_" in Governor's Decree number 43/PK.03.04/KESRA, effective starting from 2nd of May, 2025. The Governor's Decree stated that:
