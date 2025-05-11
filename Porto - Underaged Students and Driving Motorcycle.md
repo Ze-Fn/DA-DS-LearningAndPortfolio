@@ -1,4 +1,4 @@
-# Machine Learning to Predict The Likeliness of Students Drive Motorcycle To/From School
+# Machine Learning to Predict The Likeliness of Students to Drive Motorcycle To/From School
 
 ## Authors
 - **Zelvy Fauzan** – [GitHub](https://github.com/Ze-Fn/)  
