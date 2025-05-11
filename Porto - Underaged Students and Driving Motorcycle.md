@@ -1,4 +1,4 @@
-## Introduction
+## 1 Introduction
 The governor of West Java, Indonesia, Dedi Mulyadi, had decreed "9 Langkah Pembangunan Pendidikan Jawa Barat Menuju Terwujudnya Gapura Panca Waluya" in Governor's Decree number 43/PK.03.04/KESRA, effective starting from 2nd of May, 2025. The Governor's Decree stated that:
 1. Head of the Ministry of Religion of Kuningan Regency,
 2. Head of the Education and Culture Office of Kuningan Regency, and
@@ -19,19 +19,38 @@ Responding to this legal, Education Units are responsible and in charge to comme
 
 The current project aims to contribute to the nation by providing a workflow to gather and document students' data regarding point 6.
 
-## Emerging Problem
+## 2 Emerging Problem
 How to accurately identify the student who drives motorcycle to/from the school?
 
-## Hypothesis
+## 3 Hypothesis
 Students who live far away from the school and whose parents are busy tends to drive motorcycle to/from the school.
 
-## Data Collection Methods
+## 4 Data Collection Methods
 * Observation
 * Questionnaire
 * Sampling interview with parents
 
-## Data Collection Procedures
-In this section, we present the standard operation procedure for each data collection methods previously mentioned.
+## 5 Data Collection Standard Operation Procedure
+In this section, we present the standard operation procedure (SOP) for each data collection methods previously mentioned.
 
-### Observation
-1. 
+### 5.1 Observation
+1. School Security Personnels, Teachers and/or Educational Staffs observe the student who drives motorcycle to/from the school.
+2. Homeroom teacher of every class proactively (without alerting the students) gather data to the class member of the students who drive motorcycle to/from the school.
+3. School Security Personnels, Teachers (subject or homeroom), and/or Educational Staffs reports all findings to Vice Principal of Students' Affair
+
+### 5.2 Questionnaire
+1. Data Scientists/Analysts prepare the blueprint of the project which includes conceptualization, formulating hypotheses, determining data collection methodology and procedure, selecting appropriate data analysis method, and designing the appropriate questionnaire.
+2. Data Scientists/Analysts hand over and inform the home room teachers of every class to distribute the questionnaire to all students.
+3. Once the returned questionnaire count equals to (or approximately) 75% of the total school population, the data is then validated by the observation result.
+
+## 5.3 Sampling Interview with Parents
+1. Home room teacher of every class contacts and interviews the parent whose student drives motorcycle to/from school.
+2. Home room teacher of every class documents the parent's consent about their approval of allowing their child to drive motorcycle to/from the school.
+3. Home room teacher of every class also asks the reason behind their approval of allowing ther child to drive motorcycle to/from the school.
+
+## 6 Data Analysis
+1. Data Scientists/Analysts compile and validate all of the data gathered from three data collection methods.
+2. Data Scientists/Analysts clean all of the gathered data.
+3. 
+
+develop statistical method to be applied in the machine learning process, visualizes the key findings, and communicate insights
