@@ -4,7 +4,7 @@ The governor of West Java, Indonesia, Dedi Mulyadi, had decreed "9 Langkah Pemba
 2. Head of the Education and Culture Office of Kuningan Regency, and
 3. Head of Education Units throughout Kuningan Regency
 
-are to bring attention and implement to:
+are to put attention and to implement:
 > 1. Peningkatan sarana dan prasarana pendidikan, serta tersedianya toilet peserta didik di dalam kelas, untuk menunjang aktivitas dan proses belajar, sehingga terwujud lingkungan pendidikan yang baik bagi tumbuhnya Generasi Panca Waluya;
 > 2. Peningkatan mutu dan kualitas guru yang adaptif terhadap pertumbuhan dan perkembangan anak, serta memahami arah dan tujuan pendidikan secara paripurna, yaitu terwujudnya manusia Indonesia seutuhnya;
 > 3. Sekolah dilarang membuat kegiatan piknik, yang dibungkus dengan kegiatan study tour, yang memiliki dampak pada penambahan beban orang tua. Kegiatan tersebut bisa diganti dengan berbagai kegiatan berbasis inovasi, seperti mengelola sampah secara mandiri di lingkungan sekolah, mengembangkan sistem pertanian organik, aktivitas peternakan, perikanan dan kelautan, serta meningkatkan wawasan dunia usaha dan industri;
