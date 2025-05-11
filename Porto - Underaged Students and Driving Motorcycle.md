@@ -14,3 +14,24 @@ are to put attention and to implement:
 > 7. Untuk meningkatkan disiplin, serta rasa bangga sebagai warga negara yang mencintai Negara Kesatuan Republik Indonesia, setiap peserta didik harus memahami wawasan kebangsaan, dengan mengembangkan kegiatan ekstrakurikuler seperti Pramuka, Paskibra, Palang Merah Remaja, dan kegiatan lainnya yang memiliki implikasi positif pada pembentukan karakter kebangsaan peserta didik;
 > 8. Bagi peserta didik yang memiliki perilaku khusus, yang sering terlibat tawuran, main game, merokok, mabuk, balapan motor, menggunakan knalpot brong dan perilaku tidak terpuji lainnya, akan dilakukan pembinaan khusus, setelah mendapatkan persetujuan dari orang tua, melalui pola kerja sama antara Pemerintah Daerah Provinsi Jawa Barat, Pemerintah Daerah Kabupaten/Kota dengan Jajaran TNI dan Polri;
 > 9. Peningkatan pendidikan moralitas dan spiritualitas melalui pendekatan pendidikan agama, sesuai dengan keyakinannya masing-masing.
+
+Responding to this legal, Education Units are responsible and in charge to commence the aforementioned points.
+
+The current project aims to contribute to the nation by providing a workflow to gather and document students' data regarding point 6.
+
+## Emerging Problem
+How to accurately identify the student who drives motorcycle to/from the school?
+
+## Hypothesis
+Students who live far away from the school and whose parents are busy tends to drive motorcycle to/from the school.
+
+## Data Collection Methods
+* Observation
+* Questionnaire
+* Sampling interview with parents
+
+## Data Collection Procedures
+In this section, we present the standard operation procedure for each data collection methods previously mentioned.
+
+### Observation
+1. 
