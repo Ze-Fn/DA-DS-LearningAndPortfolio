@@ -52,9 +52,19 @@ In this section, we present the standard operation procedure (SOP) for each data
 2. Home room teacher of every class documents the parent's consent about their approval of allowing their child to drive motorcycle to/from the school.
 3. Home room teacher of every class also asks the reason behind their approval of allowing ther child to drive motorcycle to/from the school.
 
-## 6 Data Analysis
+## 6 Data Analysis Procedures
 1. Data Scientists/Analysts compile and validate all of the data gathered from three data collection methods.
-2. Data Scientists/Analysts clean all of the gathered data.
-3. 
+2. The gathered data are then cleaned for further analysis.
+3. The variables from raw data are exploratively correlated to each other to find relationship.
+4. Statistical model(s) is then applied to machine learning.
+5. Key findings are highlighted using visualization.
+_Note: while this procedure looks linear, we use iterative process to refine the findings_
 
-develop statistical method to be applied in the machine learning process, visualizes the key findings, and communicate insights
+## 7 Findings
+_[To be added]_
+
+## 8 Conclusion
+_[To be added]_
+
+## 9 Recommendations
+_[To be added]_
